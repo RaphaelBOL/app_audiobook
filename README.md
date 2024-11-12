@@ -1,6 +1,6 @@
 # App Audiobook
 
-<img src="assets/images/capa.png" alt="Capa do Projeto" width="500"/>
+![Capa do Projeto](assets/images/app_image.png)
 
 ## Descrição
 
