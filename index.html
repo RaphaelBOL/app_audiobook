@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiobook - Dom Casmurro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <div class="container-musica">
+            <img src="./assets/images/dom-casmurro.svg" alt="Capa do livro Dom Casmurro">
+            <audio id="audio-capitulo" src="./assets/books/dom-casmurro/1.mp3"></audio>
+            <div id="faixa-info">
+                <div id="nome-titulo">Dom Casmurro</div>
+                <div id="nome-autor">Machado de Assis</div>
+                <div id="capitulo">Capítulo 1</div>
+            </div>
+            <div id="container-botoes">
+                <button id="anterior" class="bi bi-skip-start"></button>
+                <button id="play-pause" class="bi bi-play"></button>
+                <button id="proximo" class="bi bi-skip-end"></button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
